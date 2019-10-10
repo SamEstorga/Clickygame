@@ -49,7 +49,7 @@ class App extends Component {
     });
   }
 
-  reder() {
+  render() {
     return (
       <Wrapper>
         <Header score ={this.state.score} highscore = {this.state.highscore}>Clicky Game</Header>
